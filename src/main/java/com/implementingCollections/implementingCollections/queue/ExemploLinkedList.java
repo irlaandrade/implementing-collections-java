@@ -46,9 +46,13 @@ public class ExemploLinkedList {
 
         System.out.println(filaBanco.size());
 
-        filaBanco.clear();
+        //filaBanco.clear();
 
         System.out.println(filaBanco.isEmpty());
+
+        //É adicionado no final da fila
+        filaBanco.add("Wesley");
+        System.out.println(filaBanco);
 
     }
 }
